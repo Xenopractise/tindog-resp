@@ -1,0 +1,149 @@
+#title{
+  background-color: #ff4c68;
+  padding: 2% 15%;
+}
+body{
+  font-family: 'Montserrat'
+}
+.titles{
+  margin-bottom: 5%;
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  color: white;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2{
+  font-family: 'Montserrat-Black', sans-serif;
+  margin: 0 3% 3%;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/* NAVIGATION BAR */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.25rem;
+}
+.titles{
+  padding-top: 4.5rem;
+}
+.dwnld{
+  margin: 2% 5%;
+}
+#features{
+  margin-bottom: 4%;
+  padding: 2% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-icon{
+  color: #ef8172;
+}
+.show{
+  text-align: center;
+  font-family: 'Montserrat';
+  padding-top: 5%;
+}
+.show-img{
+  transform: rotate(25deg);
+  margin-top: 3rem;
+  margin-left: 5rem;
+  position: absolute;
+}
+@media (max-width:1300px) {
+  .show-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+.dwnld{
+  margin: 2% 3% 0 0;
+}
+.feature-icon{
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.feature-icon:hover{
+  color:#ff4c68;
+}
+.feature-row{
+margin-bottom: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+
+}
+.feature-desc-main{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.feature-desc{
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  padding-top: 5%;
+  color: #fff;
+  font-size: 1.25rem;
+}
+.testimonial-text{
+  color: #fff;
+  font-size: 3vw;
+  font-weight: bold;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin:5%;
+  margin-top: 0;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 3% 15%;
+}
+#pricing{
+  padding: 5% 15%;
+  text-align: center;
+}
+.price-head{
+  font-size: 2rem;
+}
+.card-row{
+  margin-top: 5%;
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+.footer-desc{
+  font-size: 2rem;
+  font-weight: bold;
+}
+#footer{
+  text-align: center;
+}
+.contact-social{
+  margin-top: 4%;
+  font-size: 2rem;
+}
+.copyright{
+  margin-top: 1%;
+}
